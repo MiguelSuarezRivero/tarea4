@@ -27,6 +27,10 @@ public class CCuenta {
         saldo=sal;
     }
 
+    /**
+     * 
+     * @return Devuelve el saldo.
+     */
     public double estado()
     {
         return getSaldo();
